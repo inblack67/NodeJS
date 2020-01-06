@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Skeleton | CSS | Cheatsheet</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="css/style.css" rel="stylesheet" />
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+/>
+
+<style>
+.columns,
+.column {
+background: #f4f4f4;
+border: 1px white solid;
+padding: 10px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<!-- Headings -->
+<h1>Skeleton</h1>
+<h2>CSS</h2>
+<h3>Framework</h3>
+<h4>A dead simple, responsive boilerplate.</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+<!-- Floating -->
+<!-- All utilities classes will start with u- -->
+<h2 class="u-pull-left">Left</h2>
+<h2 class="u-pull-right">Right</h2>
+
+<!-- clearing the floats -->
+<div class="u-cf">
+<h1>Floats Cleared</h1>
+</div>
+
+<hr />
+
+<!-- Buttons  - def and primary only -->
+<!-- Default Buttons -->
+<!-- no classes needed yuhuhu -->
+<button>Button</button>
+<input type="submit" value="Submit" />
+<!-- link formatted as a button -->
+<a href="#" class="button">Link</a>
+
+<!-- Primary Buttons -->
+<button class="button-primary">Button</button>
+<a href="#" class="button button-primary">Link</a>
+<input type="submit" class="button-primary" value="Submit" />
+
+<!-- Full Width (not just for buttons) All the way across-->
+<button class="button-primary u-full-width">Full Width Button</button>
+
+<!-- LISTS -->
+<ul>
+<li>Home</li>
+<li>About</li>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+<li>Item 4</li>
+</ul>
+<li>Services</li>
+<li>Contact</li>
+</ul>
+
+<!-- Code Block -->
+<pre>
+<code>
+body{
+background: #333;
+color: white;
+}
+</code>
+</pre>
+
+<!-- Tables -->
+
+<table class="u-full-width">
+<thead>
+<tr>
+<th>Name</th>
+<th>Profession</th>
+<th>Age</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>John Watson</td>
+<td>Soldier</td>
+<td>35</td>
+</tr>
+<tr>
+<td>Mycroft Holmes</td>
+<td>British Government</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Eurus Holmes</td>
+<td>Everything And Nothing</td>
+<td>28</td>
+</tr>
+<tr>
+<td>Sherlock Holmes</td>
+<td>Drugs</td>
+<td>30</td>
+</tr>
+</tbody>
+</table>
+
+<!-- Forms -->
+<form action="#">
+<div>
+<label for="Name">Name</label>
+<input type="text" class="u-full-width" placeholder="Enter Name" />
+</div>
+
+<div>
+<label for="Membership">Membership</label>
+<select class="u-full-width">
+<option value="1">Membership 1</option>
+<option value="2">Membership 1</option>
+<option value="2">Membership 3</option>
+</select>
+</div>
+
+<div>
+<label for="Message">Message</label>
+<textarea
+class="u-full-width"
+name=""
+id=""
+cols="30"
+rows="10"
+placeholder="Enter Message"
+></textarea>
+</div>
+
+<div>
+<label for="">
+<input type="checkbox" />
+<span>Subscribe</span>
+</label>
+</div>
+
+<input class="button-primary" type="submit" value="Submit" />
+</form>
+
+<!-- GRID SYSTEM -->
+<div class="row">
+<div class="eight columns">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos dolor
+tempore ratione unde amet, hic id, exercitationem numquam dolores ipsa
+minus expedita ea consequuntur sapiente sequi est eum, aperiam
+accusantium tempora? Iure ab unde aspernatur nostrum dicta eius fuga
+adipisci.
+</div>
+
+<div class="four columns">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos dolor
+tempore ratione unde amet, hic id, exercitationem numquam dolores ipsa
+minus expedita ea consequuntur sapiente sequ
+</div>
+</div>
+
+<hr />
+
+<div class="row">
+<div class="six columns">
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+reprehenderit porro, quisquam officiis exercitationem rerum. Placeat
+fuga ipsa blanditiis nihil est, quidem quo accusamus consequatur
+cupiditate, voluptates cumque tempore fugit!
+</div>
+<div class="six columns">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+architecto autem temporibus itaque fuga non exercitationem iste
+tempora accusamus ipsam velit, nesciunt, fugiat expedita voluptas
+iusto, consectetur dignissimos omnis corrupti.
+</div>
+</div>
+
+<hr />
+
+<!-- One Third of the row -->
+<div class="row">
+<div class="one-third column">
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, culpa.
+</div>
+<div class="two-thirds column">
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, culpa.
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque id
+saepe sit provident consequuntur consectetur tempore aut rem, corporis
+eius!
+</div>
+</div>
+
+<hr />
+
+<div class="row">
+<div class="one-third column">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta at
+incidunt velit eveniet consequuntur numquam ipsum quia voluptates
+possimus magni tenetur consectetur aliquam explicabo quidem alias,
+pariatur sapiente, odio molestiae?
+</div>
+<div class="one-third column">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe in
+sunt doloremque harum dolore, fuga mollitia, provident sapiente
+impedit soluta nostrum voluptatem? Veniam aliquam at quae quis.
+Voluptatem, cupiditate dolores.
+</div>
+<div class="one-third column">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
+veritatis voluptatibus expedita? Harum repudiandae, saepe distinctio
+unde recusandae odio. Explicabo nemo assumenda nostrum est aperiam
+quam voluptas facere consectetur necessitatibus?
+</div>
+</div>
+
+<hr />
+
+<div class="row">
+<!-- similar to six six -->
+<div class="one-half column">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quas
+aliquam laborum, sint consequatur ex quaerat. Commodi soluta alias
+tenetur.
+</div>
+<div class="one-half column">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
+voluptate explicabo ex iusto quo pariatur officia nostrum vero quia
+totam.
+</div>
+</div>
+</div>
+
+<div style="margin-top: 500px;"></div>
+</body>
+</html>
+
+<!-- alt-shift-f = to format -->
